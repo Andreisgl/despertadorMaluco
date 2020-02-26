@@ -1,5 +1,5 @@
 /*
- * Este código é a parte de ativação e procedimento do Alarme Perpétuo, mas ainda sem a parte de ativação por hora.
+ * Este código é a parte de ativação e procedimento do Alarme Perpétuo, ainda sem as bibliotecas do módulo de tempo real DS3231, mas já com a interface de hardware e interrupts prontos para a simulação do módulo.
  */
 
 // Sensor PIR:
