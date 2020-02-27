@@ -1,5 +1,10 @@
 /*
  * Este código é a parte de ativação e procedimento do Alarme Perpétuo, ainda sem as bibliotecas do módulo de tempo real DS3231, mas já com a interface de hardware e interrupts prontos para a simulação do módulo.
+ * 
+ *  ESQUEMA ELÉTRICO:
+ *  
+ *  Pino 2: Switch com PULL UP para GND. - (Ligar o pino a VCC por meio de um resistor de 1k e também a GND por meio de um switch normalmente aberto.)
+ *  Pino 3: Switch com PULL DOWN para VCC. - (Ligar o pino a GND por meio de um resistor de 1k e também a VCC por meio de um switch normalmente aberto.)
  */
 
 // Sensor PIR:
